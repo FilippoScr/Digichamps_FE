@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+
+/*:root {font-size: 10px;}*/
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #393d41;
+    line-height: 1.65;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #25a2c3;
+}
+
+
+header {
+    background-color: black;
+}
+
+#boxLogo {
+    padding: 20px;
+}
+
+#boxLogo img {
+    width: 40%;
+}
+
+header section {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 40px;
+
+}
+
+header section h1 {
+    margin-top: 0;
+    margin-bottom: 16px;
+
+}
+
+header section p {
+    margin-bottom: 34px;
+}
+
+header section a {
+    background-color: #f04c2f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background-color: white;
+}
+
+main h3 {
+    color: #25a2c3;
+}
+
+main img {
+    border-radius: 50%;
+}
+
+main section {
+    background-color: #e22d0e;
+    color: white;
+    padding: 40px;
+}
+
+#ceo {font-size: 0.9rem;}
+
+main section h2 {
+    color: white;
+    margin-top: 0px;
+}
+
+main section cite {
+    display: block;
+    margin-bottom: 30px;
+}
+
+main section p {
+    margin: 0;
+
+}
+
+aside {
+    background-color: white;
+}
+
+aside section {
+    width: 90%;
+    border: #dee1e3 5px solid;
+    margin: 34px auto;
+}
+
+aside section img {
+    width: 100%;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 20px;
+}
+
+footer h2 {
+    color: white;
+}
+
+
+
+footer section address div i {
+    /*display: block;*/
+    color: #c8e7f0;
+}
+
+footer section address div a {
+    color: #c8e7f0;
+    font-style: normal;
+}
+
+span {font-style: normal;}
+
+footer section hr {
+    width: 23ch;
+    color: white;
+    margin: 20px auto;
+}
+
+footer section i {
+    font-style: normal;
+    color: #c8e7f0;
+}
+
+footer section i a {
+    font-style: normal;
+    color: #c8e7f0;
+}
+
