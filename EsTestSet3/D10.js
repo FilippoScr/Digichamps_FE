@@ -114,7 +114,7 @@ function deleteOne (s2, b1){
  let ris = (b1 === true) ? s2.slice(1) : s2.slice(0, -1);
  return ris;
 }
-console.log(deleteOne("Stringa2", "Boolean!"));
+console.log(deleteOne("Stringa2", false));
 
 /* ESERCIZIO 5
   Crea una funzione chiamata "onlyLetters" che riceve una stringa come parametro e la ritorna eliminando tutte le cifre numeriche.
